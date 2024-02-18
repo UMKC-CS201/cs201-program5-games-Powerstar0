@@ -2,6 +2,9 @@
 // Created by Johnny Diep on 2/1/24.
 //
 
+#ifndef CS201_PROGRAM5_GAMES_POWERSTAR0_BLACKJACK_H
+#define CS201_PROGRAM5_GAMES_POWERSTAR0_BLACKJACK_H
+
 #include <vector>
 using namespace std;
 
@@ -17,7 +20,7 @@ Card dealCard(vector<Card> &deck);
 //Post: returns the "top" card and removes from deck
 
 
-void blackJack():
+void blackJack();
 //Pre: none
 //Post: play the game: create deck,
 //             shuffle deck, deal 2 cards to player
@@ -25,8 +28,5 @@ void blackJack():
 //             deal cards to dealer as long total <= 17
 //             compare totals - determine winner
 //             loop to play another game
-
-#ifndef CS201_PROGRAM5_GAMES_POWERSTAR0_BLACKJACK_H
-#define CS201_PROGRAM5_GAMES_POWERSTAR0_BLACKJACK_H
 
 #endif //CS201_PROGRAM5_GAMES_POWERSTAR0_BLACKJACK_H
